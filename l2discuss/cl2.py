@@ -1,5 +1,5 @@
 from decimal import Decimal
-from PyQt5.QtCore import QObject, pyqtSignal, pyqtSlot
+from PyQt6.QtCore import QObject, pyqtSignal, pyqtSlot
 
 if __package__:
     from .currency import convert, number
